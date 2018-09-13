@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-@Service("clientService")
+//@Service("clientService")
 public class ClientService implements ClientServiceInterface {
 
     private  List<Client> lc = new ArrayList<>();
